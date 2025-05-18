@@ -1,0 +1,16 @@
+# 忽略系统文件
+AppData/
+Application Data/
+Local Settings/
+Temp/
+*.tmp
+
+# 忽略Node.js依赖
+node_modules/
+
+# 忽略IDE文件
+.vscode/
+.idea/
+
+# 忽略存档文件（如果需要）
+saves/

@@ -1,14 +1,14 @@
 {
-  "resources": 0,
-  "resourcesPerSecond": 0,
+  "resources": 865.4999999999836,
+  "resourcesPerSecond": 8,
+  "totalCollected": 1353.4999999999636,
+  "playTime": 247,
   "upgrades": {
     "autoDrone": {
-      "level": 0,
+      "level": 8,
       "baseCost": 10,
       "multiplier": 1
     }
   },
-  "totalCollected": 0,
-  "playTime": 0,
-  "createdAt": "2025-05-18T21:25:08.320Z"
+  "lastUpdated": "2025-05-18T22:09:34.750Z"
 }
