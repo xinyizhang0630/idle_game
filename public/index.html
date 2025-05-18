@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Miner Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Idle Miner</h1>
+    </header>
+    
+    <main>
+        <section class="resource-section">
+            <h2>⚡ Energy</h2>
+            <div class="resource-counter">
+                <span id="resource-count">0</span>
+                <span id="resource-per-second">(0/sec)</span>
+            </div>
+            <button id="click-button" class="pulse-on-click">Mine</button>
+        </section>
+        
+        <section class="upgrades-section">
+            <h2>🛠️ Upgrades</h2>
+            <div class="upgrade" id="upgrade-1">
+                <h3>Auto Miner</h3>
+                <p>Generates +1 energy per second</p>
+                <p>🔧 Level: <span class="level">0</span></p>
+                <p>💵 Cost: <span class="cost">10</span></p>
+                <button class="buy-button">Upgrade</button>
+            </div>
+        </section>
+        
+        <section class="stats-section">
+            <h2>📊 Statistics</h2>
+            <p>Total Mined: <span id="total-collected">0</span> ⚡</p>
+            <p>⏱️ Play Time: <span id="play-time">00:00:00</span></p>
+        </section>
+
+        <div id="save-status" class="save-status hidden">Auto-saving...</div>
+    </main>
+    
+    <footer>
+        <p>Idle Miner Game - Web Development Project</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

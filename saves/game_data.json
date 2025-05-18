@@ -1,0 +1,14 @@
+{
+  "resources": 0,
+  "resourcesPerSecond": 0,
+  "upgrades": {
+    "autoDrone": {
+      "level": 0,
+      "baseCost": 10,
+      "multiplier": 1
+    }
+  },
+  "totalCollected": 0,
+  "playTime": 0,
+  "createdAt": "2025-05-18T21:25:08.320Z"
+}
